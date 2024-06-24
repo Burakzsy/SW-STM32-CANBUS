@@ -1,0 +1,10 @@
+23:15:56 **** Incremental Build of configuration Debug for project 013_1_HAL_CAN_BUS_SEND_HCSR04_DATA ****
+make -j12 all 
+arm-none-eabi-size   013_1_HAL_CAN_BUS_SEND_HCSR04_DATA.elf 
+   text	   data	    bss	    dec	    hex	filename
+  10312	     20	   1692	  12024	   2ef8	013_1_HAL_CAN_BUS_SEND_HCSR04_DATA.elf
+Finished building: default.size.stdout
+ 
+
+23:15:56 Build Finished. 0 errors, 0 warnings. (took 287ms)
+

@@ -1,0 +1,10 @@
+13:10:49 **** Incremental Build of configuration Debug for project canbus_deneme ****
+make -j12 all 
+arm-none-eabi-size   canbus_deneme.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9976	     20	   1708	  11704	   2db8	canbus_deneme.elf
+Finished building: default.size.stdout
+ 
+
+13:10:50 Build Finished. 0 errors, 0 warnings. (took 312ms)
+

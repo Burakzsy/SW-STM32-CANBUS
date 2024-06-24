@@ -1,0 +1,10 @@
+00:05:50 **** Incremental Build of configuration Debug for project 004_HAL_CAN_BUS_WITHOUT_FILTER_BOARD2 ****
+make -j12 all 
+arm-none-eabi-size   004_HAL_CAN_BUS_WITHOUT_FILTER_BOARD2.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9992	     20	   1708	  11720	   2dc8	004_HAL_CAN_BUS_WITHOUT_FILTER_BOARD2.elf
+Finished building: default.size.stdout
+ 
+
+00:05:51 Build Finished. 0 errors, 0 warnings. (took 285ms)
+

@@ -1,0 +1,19 @@
+19:10:18 **** Incremental Build of configuration Debug for project bluepill_can ****
+make -j12 all 
+arm-none-eabi-gcc -o "bluepill_can.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Burak\Desktop\STM32F407\kodlar disc\CANBUS\bluepill_can\STM32F103CBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="bluepill_can.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: bluepill_can.elf
+ 
+arm-none-eabi-size   bluepill_can.elf 
+arm-none-eabi-objdump -h -S  bluepill_can.elf  > "bluepill_can.list"
+arm-none-eabi-objcopy  -O ihex  bluepill_can.elf  "bluepill_can.hex"
+   text	   data	    bss	    dec	    hex	filename
+   8512	     20	   1684	  10216	   27e8	bluepill_can.elf
+Finished building: default.size.stdout
+ 
+Finished building: bluepill_can.hex
+Finished building: bluepill_can.list
+ 
+ 
+
+19:10:18 Build Finished. 0 errors, 0 warnings. (took 500ms)
+

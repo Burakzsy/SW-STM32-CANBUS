@@ -1,0 +1,10 @@
+14:35:10 **** Incremental Build of configuration Debug for project 012_HAL_CAN_BUS_SEND_ADC_DATA ****
+make -j12 all 
+arm-none-eabi-size   012_HAL_CAN_BUS_SEND_ADC_DATA.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13292	     20	   1852	  15164	   3b3c	012_HAL_CAN_BUS_SEND_ADC_DATA.elf
+Finished building: default.size.stdout
+ 
+
+14:35:10 Build Finished. 0 errors, 0 warnings. (took 295ms)
+

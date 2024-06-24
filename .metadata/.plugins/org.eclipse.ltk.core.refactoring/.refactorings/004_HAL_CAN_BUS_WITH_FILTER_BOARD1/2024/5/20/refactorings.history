@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;004_HAL_CAN_BUS_WITH_FILTER_BOARD1/001_HAL_CAN_BUS_WITHOUT_FILTER.ioc&apos; to &apos;001_HAL_CAN_BUS_WITH_FILTER.ioc&apos;" description="Rename resource &apos;001_HAL_CAN_BUS_WITHOUT_FILTER.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="001_HAL_CAN_BUS_WITHOUT_FILTER.ioc" name="001_HAL_CAN_BUS_WITH_FILTER.ioc" stamp="1716067305779" updateReferences="true"/>
+</session>

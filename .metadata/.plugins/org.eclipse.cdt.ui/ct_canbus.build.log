@@ -1,0 +1,10 @@
+18:56:23 **** Incremental Build of configuration Debug for project ct_canbus ****
+make -j12 all 
+arm-none-eabi-size   ct_canbus.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9980	     20	   1684	  11684	   2da4	ct_canbus.elf
+Finished building: default.size.stdout
+ 
+
+18:56:24 Build Finished. 0 errors, 0 warnings. (took 278ms)
+
